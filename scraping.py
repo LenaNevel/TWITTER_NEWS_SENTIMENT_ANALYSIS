@@ -7,10 +7,10 @@ import csv
 ## User Credentials
 #set up access keys to the twitter API
 #found in twitter developer created app
-consumer_key = 'iaHEVN95ORackRWoNyr1Rgdyr'
-consumer_secret = 'ROL2cvYr2DtHGmNp21UdZWUBKktFJ4oRjCQTyQLTsiN34J231f'
-access_key = '1270776687647752193-5igh2q6rFjsJiUN12DnoiNHWFHPJSt'
-access_secret = 'a6dO1W2hmGBRwrIIiMqW6ECQI1CpdhjNIneBwAAzhOCFq'
+consumer_key = '***'
+consumer_secret = '***'
+access_key = '***'
+access_secret = '***'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
